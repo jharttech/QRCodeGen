@@ -24,14 +24,14 @@ _PKG_OK=$(dpkg-query -W --showformat='${Status}\n' imagemagick|grep "install ok 
 echo Checking for imagemagick: $_PKG_OK
 if [ "" == "$_PKG_OK" ]; then
   echo "No imagemagick install found. Setting up imagemagick now."
-  sudo apt-get --force-yes --yes install imagemagick
+  sudo apt-get -y install imagemagick
 fi
 
 _PKG_OKTwo=$(dpkg-query -W --showformat='${Status}\n' qrencode|grep "install ok installed")
 echo Checking for qrencode: $_PKG_OKTwo
 if [ "" == "$_PKG_OKTwo" ]; then
   echo "No qrencode install found. Setting up qrencode."
-  sudo apt-get --force-yes --yes install qrencode
+  sudo apt-get -y install qrencode
 fi
 
 
