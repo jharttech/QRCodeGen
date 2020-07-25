@@ -13,7 +13,7 @@ Download zip file from github or clone the repository.</br></br>
 4. Follow the onscreen prompts.
 
 <h2>Python Version</h2>
-This is the python version of the QRCodeGen script.  This script can be ran on any machine with python installed <b>(Note:</b> Instructions are written for linu, but can easily be adapted for other OS) and the qrcode python module installed. (Will address steps or info on how to do that later)</br></br>
+This is the python version of the QRCodeGen script.  This script can be ran on any machine with python installed <b>(Note:</b> Instructions are written for linux, but can easily be adapted for other OS) and the qrcode python module installed. (Will address steps or info on how to do that later)</br></br>
 
 Download zip file from github or clone the repository.</br></br>
 
